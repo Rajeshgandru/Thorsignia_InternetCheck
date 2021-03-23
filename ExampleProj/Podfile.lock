@@ -1,0 +1,16 @@
+PODS:
+  - Thorsignia_InternetCheck (0.1.0)
+
+DEPENDENCIES:
+  - Thorsignia_InternetCheck (from `../Thorsignia_InternetCheck`)
+
+EXTERNAL SOURCES:
+  Thorsignia_InternetCheck:
+    :path: "../Thorsignia_InternetCheck"
+
+SPEC CHECKSUMS:
+  Thorsignia_InternetCheck: 117af963e1c21442cfcdc18cd55af48736732ee5
+
+PODFILE CHECKSUM: cc62f957de3291b8f1d0140261d6d9ea900c522e
+
+COCOAPODS: 1.10.0

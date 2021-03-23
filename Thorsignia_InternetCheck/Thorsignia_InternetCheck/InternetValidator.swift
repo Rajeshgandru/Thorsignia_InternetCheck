@@ -51,8 +51,7 @@ public class R_InternetClassValidator {
         }
      }
     @objc func statusManager(_ notification: Notification) {
-        let result = R_InternetClassValidator.updateUserInterface()
-     }
+      }
 
 }
 
