@@ -6,6 +6,6 @@ target 'ExampleProj' do
   use_frameworks!
 
   # Pods for ExampleProj
-  pod "Thorsignia_InternetCheck", :path => '../Thorsignia_InternetCheck'
+  pod "Thorsignia_InternetCheck"
 
 end
