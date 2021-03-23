@@ -1,1 +1,1 @@
-# Thorsignia_InternetChecking
+# Thorsignia_InternetCheck
