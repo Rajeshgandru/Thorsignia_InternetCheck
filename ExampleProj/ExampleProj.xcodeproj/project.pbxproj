@@ -3,29 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		59C4C0F7E6C87335591E38A5 /* Pods_ExampleProj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA137269D290C52CDBC5565 /* Pods_ExampleProj.framework */; };
 		8444986E260A0B150017842A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444986D260A0B150017842A /* AppDelegate.swift */; };
 		84449870260A0B150017842A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444986F260A0B150017842A /* SceneDelegate.swift */; };
-		84449872260A0B150017842A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84449871260A0B150017842A /* ViewController.swift */; };
 		84449875260A0B150017842A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84449873260A0B150017842A /* Main.storyboard */; };
 		84449877260A0B170017842A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84449876260A0B170017842A /* Assets.xcassets */; };
 		8444987A260A0B170017842A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84449878260A0B170017842A /* LaunchScreen.storyboard */; };
+		849927C3260C8EAB0040A674 /* NoNetworkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849927C1260C8EAB0040A674 /* NoNetworkVC.swift */; };
+		849927C4260C8EAB0040A674 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849927C2260C8EAB0040A674 /* ViewController.swift */; };
+		849927C6260C8F5D0040A674 /* nonetwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 849927C5260C8F5D0040A674 /* nonetwork.png */; };
+		849927C8260C909D0040A674 /* maxresdefault.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 849927C7260C909D0040A674 /* maxresdefault.jpeg */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		849927A1260C71520040A674 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1ACCFB68E36FBB10C194D5E1 /* Pods-ExampleProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleProj.release.xcconfig"; path = "Target Support Files/Pods-ExampleProj/Pods-ExampleProj.release.xcconfig"; sourceTree = "<group>"; };
 		8444986A260A0B150017842A /* ExampleProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8444986D260A0B150017842A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8444986F260A0B150017842A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84449871260A0B150017842A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84449874260A0B150017842A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84449876260A0B170017842A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84449879260A0B170017842A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8444987B260A0B170017842A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849927C1260C8EAB0040A674 /* NoNetworkVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoNetworkVC.swift; sourceTree = "<group>"; };
+		849927C2260C8EAB0040A674 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../DemoPodApp/DemoPodApp/ViewController.swift; sourceTree = "<group>"; };
+		849927C5260C8F5D0040A674 /* nonetwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nonetwork.png; sourceTree = "<group>"; };
+		849927C7260C909D0040A674 /* maxresdefault.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maxresdefault.jpeg; sourceTree = "<group>"; };
 		8D25FFEB56E7C64047D60E6E /* Pods-ExampleProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleProj.debug.xcconfig"; path = "Target Support Files/Pods-ExampleProj/Pods-ExampleProj.debug.xcconfig"; sourceTree = "<group>"; };
 		BEA137269D290C52CDBC5565 /* Pods_ExampleProj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleProj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,10 +84,13 @@
 			children = (
 				8444986D260A0B150017842A /* AppDelegate.swift */,
 				8444986F260A0B150017842A /* SceneDelegate.swift */,
-				84449871260A0B150017842A /* ViewController.swift */,
+				849927C1260C8EAB0040A674 /* NoNetworkVC.swift */,
+				849927C2260C8EAB0040A674 /* ViewController.swift */,
+				849927C5260C8F5D0040A674 /* nonetwork.png */,
 				84449873260A0B150017842A /* Main.storyboard */,
 				84449876260A0B170017842A /* Assets.xcassets */,
 				84449878260A0B170017842A /* LaunchScreen.storyboard */,
+				849927C7260C909D0040A674 /* maxresdefault.jpeg */,
 				8444987B260A0B170017842A /* Info.plist */,
 			);
 			path = ExampleProj;
@@ -80,7 +102,6 @@
 				8D25FFEB56E7C64047D60E6E /* Pods-ExampleProj.debug.xcconfig */,
 				1ACCFB68E36FBB10C194D5E1 /* Pods-ExampleProj.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -103,7 +124,8 @@
 				84449866260A0B150017842A /* Sources */,
 				84449867260A0B150017842A /* Frameworks */,
 				84449868260A0B150017842A /* Resources */,
-				1AFD5090AFA7973EE6337C1A /* [CP] Embed Pods Frameworks */,
+				849927A1260C71520040A674 /* Embed Frameworks */,
+				76AA7A5B143DA4AF35F90153 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,29 +176,14 @@
 				8444987A260A0B170017842A /* LaunchScreen.storyboard in Resources */,
 				84449877260A0B170017842A /* Assets.xcassets in Resources */,
 				84449875260A0B150017842A /* Main.storyboard in Resources */,
+				849927C8260C909D0040A674 /* maxresdefault.jpeg in Resources */,
+				849927C6260C8F5D0040A674 /* nonetwork.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1AFD5090AFA7973EE6337C1A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ExampleProj/Pods-ExampleProj-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ExampleProj/Pods-ExampleProj-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleProj/Pods-ExampleProj-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5453385AEF143D23B11DE76E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,6 +206,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		76AA7A5B143DA4AF35F90153 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleProj/Pods-ExampleProj-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleProj/Pods-ExampleProj-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleProj/Pods-ExampleProj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -206,7 +230,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84449872260A0B150017842A /* ViewController.swift in Sources */,
+				849927C4260C8EAB0040A674 /* ViewController.swift in Sources */,
+				849927C3260C8EAB0040A674 /* NoNetworkVC.swift in Sources */,
 				8444986E260A0B150017842A /* AppDelegate.swift in Sources */,
 				84449870260A0B150017842A /* SceneDelegate.swift in Sources */,
 			);
@@ -357,8 +382,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6Z76Y29529;
+				DEVELOPMENT_TEAM = DK293KP9NY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExampleProj",
+				);
 				INFOPLIST_FILE = ExampleProj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,8 +407,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6Z76Y29529;
+				DEVELOPMENT_TEAM = DK293KP9NY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExampleProj",
+				);
 				INFOPLIST_FILE = ExampleProj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

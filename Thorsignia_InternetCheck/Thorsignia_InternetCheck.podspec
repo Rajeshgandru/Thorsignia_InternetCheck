@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Thorsignia_InternetCheck"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.2"
   spec.summary      = "This the best framework for checking internet."
   spec.description  = "The Thorsignia_InternetChecking is leting you that your user internet is in active or inactive."
 
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author       = { "Rajeshgandru" => "rajesh@thorsignnia.net" }
  
-  spec.platform   = :ios, "14.4"
+  spec.platform   = :ios, "12.1"
   spec.source       = { :git => "https://github.com/Rajeshgandru/Thorsignia_InternetCheck.git", :tag => spec.version.to_s }
  
   spec.source_files  = "Thorsignia_InternetCheck/**/*{swift}"

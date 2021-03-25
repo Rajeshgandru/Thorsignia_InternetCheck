@@ -3,23 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12D25AAFE83210C749E7EFDC77C5961D /* InternetValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AE3A4E1910DD6ABFCEE6640505CB3D /* InternetValidator.swift */; };
-		202B0D69473EE0068B21DD42B758EB63 /* Thorsignia_InternetCheck-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14359455148EAE8DA5E98E31FBF2661E /* Thorsignia_InternetCheck-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F61777F15E4792FC76FB5ED6D33D984 /* NetStatusChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91829B88A1D00AAB3274AA75689F24AC /* NetStatusChecking.swift */; };
 		37A2B98C2B76E44D387086EC679B7369 /* Pods-ExampleProj-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E05E27C299B95DAAD2CA6B634598D4DF /* Pods-ExampleProj-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5732D214B73B6B9F478148910CC96B7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		62E19371772AC50F15818216B955A703 /* Pods-ExampleProj-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2838C652612E4A3AA058944127E58492 /* Pods-ExampleProj-dummy.m */; };
-		656A9EA8220AD1B4A7FC4103C76C631A /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F199407F40472C0C5E4197BAAEA46BBA /* Validator.swift */; };
-		C1FC8823E2B0C00F1341691114D41677 /* Rechability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D036BA69F0A41CD4C139017E4A8B90EC /* Rechability.swift */; };
-		D067175BF2F92E3BE4E829D51493DB0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F89B717A429A64D3A2628ACB68CD2AA6 /* Thorsignia_InternetCheck-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCDCE0303F63A5BEE2E2AA90148AFCD /* Thorsignia_InternetCheck-dummy.m */; };
+		639EF1D240D966E463A71A71CFC6D877 /* Thorsignia_InternetCheck-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 907AF1E01E192F26DE45884C322CB184 /* Thorsignia_InternetCheck-dummy.m */; };
+		8AB2E18510E68119C8C513B9BC11D6AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ECA6C817B5E5B4DD88F7B580810CED6D /* Thorsignia_InternetCheck-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 348D6EE087E7CF8385A6A2DBF2CF1E6B /* Thorsignia_InternetCheck-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D36D55D567A363D56FE41BF89F176279 /* PBXContainerItemProxy */ = {
+		21DF8E21974AAA57DE6BB225BED16FA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -31,27 +29,24 @@
 /* Begin PBXFileReference section */
 		06EFD83AAFD9C4137E765A97966C1ACE /* Pods-ExampleProj-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleProj-Info.plist"; sourceTree = "<group>"; };
 		10341691BA039D2C872A573B50E9DAE4 /* Pods-ExampleProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleProj.release.xcconfig"; sourceTree = "<group>"; };
-		14359455148EAE8DA5E98E31FBF2661E /* Thorsignia_InternetCheck-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Thorsignia_InternetCheck-umbrella.h"; sourceTree = "<group>"; };
+		21F6545460D60FD4A39FDCE9D88B515E /* Thorsignia_InternetCheck.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Thorsignia_InternetCheck.modulemap; sourceTree = "<group>"; };
 		2838C652612E4A3AA058944127E58492 /* Pods-ExampleProj-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleProj-dummy.m"; sourceTree = "<group>"; };
-		582D81DB79DA36A3839E44ABB30E5704 /* Thorsignia_InternetCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Thorsignia_InternetCheck.debug.xcconfig; sourceTree = "<group>"; };
-		67CC33BE72B8348BF5C161719D57E8D8 /* Thorsignia_InternetCheck-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Thorsignia_InternetCheck-Info.plist"; sourceTree = "<group>"; };
+		348D6EE087E7CF8385A6A2DBF2CF1E6B /* Thorsignia_InternetCheck-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Thorsignia_InternetCheck-umbrella.h"; sourceTree = "<group>"; };
+		61012231D023B5B41EAE600A69EA54DE /* Thorsignia_InternetCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Thorsignia_InternetCheck.debug.xcconfig; sourceTree = "<group>"; };
 		6F043CD39EAFD2518FFEF1DACBF5FC33 /* Pods-ExampleProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleProj.debug.xcconfig"; sourceTree = "<group>"; };
-		6FCDCE0303F63A5BEE2E2AA90148AFCD /* Thorsignia_InternetCheck-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Thorsignia_InternetCheck-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7E1946C95822C9603162DA85D81E64DD /* Thorsignia_InternetCheck-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Thorsignia_InternetCheck-prefix.pch"; sourceTree = "<group>"; };
 		82107085CAAC23FC838CB1BBF21F500F /* Thorsignia_InternetCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Thorsignia_InternetCheck.framework; path = Thorsignia_InternetCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		858663948DBC0F99A48851DC17D9048B /* Thorsignia_InternetCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Thorsignia_InternetCheck.release.xcconfig; sourceTree = "<group>"; };
 		8BE55BF34142AFF6D933CEAE50B9ED26 /* Pods-ExampleProj-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleProj-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8CE73A0536BBE1E621849EABDF49E989 /* Thorsignia_InternetCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Thorsignia_InternetCheck.release.xcconfig; sourceTree = "<group>"; };
-		96F95073F73B179D4C6977809AD400E3 /* Thorsignia_InternetCheck.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Thorsignia_InternetCheck.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		907AF1E01E192F26DE45884C322CB184 /* Thorsignia_InternetCheck-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Thorsignia_InternetCheck-dummy.m"; sourceTree = "<group>"; };
+		91829B88A1D00AAB3274AA75689F24AC /* NetStatusChecking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetStatusChecking.swift; path = Thorsignia_InternetCheck/Thorsignia_InternetCheck/NetStatusChecking.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B1AE3A4E1910DD6ABFCEE6640505CB3D /* InternetValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternetValidator.swift; path = Thorsignia_InternetCheck/InternetValidator.swift; sourceTree = "<group>"; };
+		A657FBDD96D405E7A563A0E462D9852F /* Thorsignia_InternetCheck-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Thorsignia_InternetCheck-prefix.pch"; sourceTree = "<group>"; };
 		BB8865A1C1D53540115BA0532CDF80CB /* Pods_ExampleProj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleProj.framework; path = "Pods-ExampleProj.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF100177772C355200C92FFFF29629CC /* Pods-ExampleProj.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExampleProj.modulemap"; sourceTree = "<group>"; };
-		C2F1E4A7ABDF19FD1FFE4D99F9710B9D /* Thorsignia_InternetCheck.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Thorsignia_InternetCheck.modulemap; sourceTree = "<group>"; };
-		D036BA69F0A41CD4C139017E4A8B90EC /* Rechability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rechability.swift; path = Thorsignia_InternetCheck/Rechability.swift; sourceTree = "<group>"; };
 		D0E70D7302EBA1DE8F667BC0EA5C66EB /* Pods-ExampleProj-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleProj-frameworks.sh"; sourceTree = "<group>"; };
 		E05E27C299B95DAAD2CA6B634598D4DF /* Pods-ExampleProj-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleProj-umbrella.h"; sourceTree = "<group>"; };
-		F199407F40472C0C5E4197BAAEA46BBA /* Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validator.swift; path = Thorsignia_InternetCheck/Validator.swift; sourceTree = "<group>"; };
+		EA5D98BF17442C9DB661FF55FE9CBD45 /* Thorsignia_InternetCheck-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Thorsignia_InternetCheck-Info.plist"; sourceTree = "<group>"; };
 		F72A4440EC890E3D0C1359F4FC06B9BD /* Pods-ExampleProj-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleProj-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,17 +59,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACEA9433BA3F14AA16801D36AAC71631 /* Frameworks */ = {
+		93EBE66F36F7076B7513DB32C719025C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D067175BF2F92E3BE4E829D51493DB0C /* Foundation.framework in Frameworks */,
+				8AB2E18510E68119C8C513B9BC11D6AF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E3AF932163732556AADF488924F4053 /* Thorsignia_InternetCheck */ = {
+			isa = PBXGroup;
+			children = (
+				91829B88A1D00AAB3274AA75689F24AC /* NetStatusChecking.swift */,
+				6F1A4E17E64A35D4DE2379C5B44FF7D7 /* Support Files */,
+			);
+			name = Thorsignia_InternetCheck;
+			path = Thorsignia_InternetCheck;
+			sourceTree = "<group>";
+		};
 		3A02C5C4A7C8CAB5C66911E63CF93D54 /* Pods-ExampleProj */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,48 +105,35 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5B3E1C202105D9366C239F2F85062F91 /* Thorsignia_InternetCheck */ = {
+		6F1A4E17E64A35D4DE2379C5B44FF7D7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B1AE3A4E1910DD6ABFCEE6640505CB3D /* InternetValidator.swift */,
-				D036BA69F0A41CD4C139017E4A8B90EC /* Rechability.swift */,
-				F199407F40472C0C5E4197BAAEA46BBA /* Validator.swift */,
-				7B0E5A11368C49BD23976F13EF67B5AA /* Pod */,
-				A26F4FF10BA7AEA2FCD755458AEB308B /* Support Files */,
-			);
-			name = Thorsignia_InternetCheck;
-			path = ../../Thorsignia_InternetCheck;
-			sourceTree = "<group>";
-		};
-		7B0E5A11368C49BD23976F13EF67B5AA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				96F95073F73B179D4C6977809AD400E3 /* Thorsignia_InternetCheck.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A26F4FF10BA7AEA2FCD755458AEB308B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C2F1E4A7ABDF19FD1FFE4D99F9710B9D /* Thorsignia_InternetCheck.modulemap */,
-				6FCDCE0303F63A5BEE2E2AA90148AFCD /* Thorsignia_InternetCheck-dummy.m */,
-				67CC33BE72B8348BF5C161719D57E8D8 /* Thorsignia_InternetCheck-Info.plist */,
-				7E1946C95822C9603162DA85D81E64DD /* Thorsignia_InternetCheck-prefix.pch */,
-				14359455148EAE8DA5E98E31FBF2661E /* Thorsignia_InternetCheck-umbrella.h */,
-				582D81DB79DA36A3839E44ABB30E5704 /* Thorsignia_InternetCheck.debug.xcconfig */,
-				8CE73A0536BBE1E621849EABDF49E989 /* Thorsignia_InternetCheck.release.xcconfig */,
+				21F6545460D60FD4A39FDCE9D88B515E /* Thorsignia_InternetCheck.modulemap */,
+				907AF1E01E192F26DE45884C322CB184 /* Thorsignia_InternetCheck-dummy.m */,
+				EA5D98BF17442C9DB661FF55FE9CBD45 /* Thorsignia_InternetCheck-Info.plist */,
+				A657FBDD96D405E7A563A0E462D9852F /* Thorsignia_InternetCheck-prefix.pch */,
+				348D6EE087E7CF8385A6A2DBF2CF1E6B /* Thorsignia_InternetCheck-umbrella.h */,
+				61012231D023B5B41EAE600A69EA54DE /* Thorsignia_InternetCheck.debug.xcconfig */,
+				858663948DBC0F99A48851DC17D9048B /* Thorsignia_InternetCheck.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../ExampleProj/Pods/Target Support Files/Thorsignia_InternetCheck";
+			path = "../Target Support Files/Thorsignia_InternetCheck";
+			sourceTree = "<group>";
+		};
+		88D2F979FA62DE76ABF4F39361643FD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E3AF932163732556AADF488924F4053 /* Thorsignia_InternetCheck */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F7E153BAEB228A3EBDD57806F1B87E21 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				88D2F979FA62DE76ABF4F39361643FD5 /* Pods */,
 				D3943443C280C14242DD803F1269A516 /* Products */,
 				D3B5F8D857F6CEFF5A82C912700BDFD5 /* Targets Support Files */,
 			);
@@ -172,14 +164,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F7E153BAEB228A3EBDD57806F1B87E21 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5B3E1C202105D9366C239F2F85062F91 /* Thorsignia_InternetCheck */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -191,11 +175,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F940CA68FC2F475EEF133636BEF47540 /* Headers */ = {
+		C961DBA1A66C2548A0E6600042411ECC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				202B0D69473EE0068B21DD42B758EB63 /* Thorsignia_InternetCheck-umbrella.h in Headers */,
+				ECA6C817B5E5B4DD88F7B580810CED6D /* Thorsignia_InternetCheck-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,12 +188,12 @@
 /* Begin PBXNativeTarget section */
 		5B04D619F4CF3A775D54EA71381DFEB4 /* Thorsignia_InternetCheck */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF09E23A7430DCF0B2BF349749F60DAE /* Build configuration list for PBXNativeTarget "Thorsignia_InternetCheck" */;
+			buildConfigurationList = 8C6AA9C58E4F96004DAF9AF7C877C85E /* Build configuration list for PBXNativeTarget "Thorsignia_InternetCheck" */;
 			buildPhases = (
-				F940CA68FC2F475EEF133636BEF47540 /* Headers */,
-				3050F1A7C532E5E1C6B87015A6A9D8E0 /* Sources */,
-				ACEA9433BA3F14AA16801D36AAC71631 /* Frameworks */,
-				CECD9EC2A87584FE11662E2CED0911A9 /* Resources */,
+				C961DBA1A66C2548A0E6600042411ECC /* Headers */,
+				DE32203C5887BC014F8251270322B2C0 /* Sources */,
+				93EBE66F36F7076B7513DB32C719025C /* Frameworks */,
+				AF18765370E63909AE1778BC6C1A5786 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -232,7 +216,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8B631323205AF79405AC62A1A31E96FD /* PBXTargetDependency */,
+				556A6EF5544C11912BA4D1D0795F91E9 /* PBXTargetDependency */,
 			);
 			name = "Pods-ExampleProj";
 			productName = "Pods-ExampleProj";
@@ -249,7 +233,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -275,7 +259,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CECD9EC2A87584FE11662E2CED0911A9 /* Resources */ = {
+		AF18765370E63909AE1778BC6C1A5786 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -285,17 +269,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3050F1A7C532E5E1C6B87015A6A9D8E0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12D25AAFE83210C749E7EFDC77C5961D /* InternetValidator.swift in Sources */,
-				C1FC8823E2B0C00F1341691114D41677 /* Rechability.swift in Sources */,
-				F89B717A429A64D3A2628ACB68CD2AA6 /* Thorsignia_InternetCheck-dummy.m in Sources */,
-				656A9EA8220AD1B4A7FC4103C76C631A /* Validator.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A1BA8A0F38CCEC5078DE7AAA6B5545C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,54 +277,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE32203C5887BC014F8251270322B2C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F61777F15E4792FC76FB5ED6D33D984 /* NetStatusChecking.swift in Sources */,
+				639EF1D240D966E463A71A71CFC6D877 /* Thorsignia_InternetCheck-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8B631323205AF79405AC62A1A31E96FD /* PBXTargetDependency */ = {
+		556A6EF5544C11912BA4D1D0795F91E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Thorsignia_InternetCheck;
 			target = 5B04D619F4CF3A775D54EA71381DFEB4 /* Thorsignia_InternetCheck */;
-			targetProxy = D36D55D567A363D56FE41BF89F176279 /* PBXContainerItemProxy */;
+			targetProxy = 21DF8E21974AAA57DE6BB225BED16FA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		142CDE5A4A21BE507C48DA7DA797535F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CE73A0536BBE1E621849EABDF49E989 /* Thorsignia_InternetCheck.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Thorsignia_InternetCheck/Thorsignia_InternetCheck-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Thorsignia_InternetCheck/Thorsignia_InternetCheck-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Thorsignia_InternetCheck/Thorsignia_InternetCheck.modulemap";
-				PRODUCT_MODULE_NAME = Thorsignia_InternetCheck;
-				PRODUCT_NAME = Thorsignia_InternetCheck;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1598C42837F6FA1EA40A89FC58044E98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 10341691BA039D2C872A573B50E9DAE4 /* Pods-ExampleProj.release.xcconfig */;
@@ -555,9 +501,9 @@
 			};
 			name = Debug;
 		};
-		A5C562DA8E36E2A48525C5DD2C1CC905 /* Debug */ = {
+		B866770FE8A22B0E2E8DCCF236C76C85 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 582D81DB79DA36A3839E44ABB30E5704 /* Thorsignia_InternetCheck.debug.xcconfig */;
+			baseConfigurationReference = 61012231D023B5B41EAE600A69EA54DE /* Thorsignia_InternetCheck.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -590,6 +536,42 @@
 			};
 			name = Debug;
 		};
+		EA3D257A3A1FB31F31986E6030FBAB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 858663948DBC0F99A48851DC17D9048B /* Thorsignia_InternetCheck.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Thorsignia_InternetCheck/Thorsignia_InternetCheck-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Thorsignia_InternetCheck/Thorsignia_InternetCheck-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Thorsignia_InternetCheck/Thorsignia_InternetCheck.modulemap";
+				PRODUCT_MODULE_NAME = Thorsignia_InternetCheck;
+				PRODUCT_NAME = Thorsignia_InternetCheck;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -611,11 +593,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF09E23A7430DCF0B2BF349749F60DAE /* Build configuration list for PBXNativeTarget "Thorsignia_InternetCheck" */ = {
+		8C6AA9C58E4F96004DAF9AF7C877C85E /* Build configuration list for PBXNativeTarget "Thorsignia_InternetCheck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5C562DA8E36E2A48525C5DD2C1CC905 /* Debug */,
-				142CDE5A4A21BE507C48DA7DA797535F /* Release */,
+				B866770FE8A22B0E2E8DCCF236C76C85 /* Debug */,
+				EA3D257A3A1FB31F31986E6030FBAB3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
