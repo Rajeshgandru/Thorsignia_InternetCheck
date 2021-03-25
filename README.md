@@ -4,7 +4,7 @@ The Thorsignia_InternetChecking is leting you that your user internet is in acti
 
 
 ### Requirements
-iOS 11.0+ 
+iOS 12.1+ 
 
 Supported devices : 
 * iPhone 
@@ -39,33 +39,54 @@ end
 
 
 ## Integration samples
-### Tracker
+### Import Pod into your class
 ```swift
 // Your initial class.swift
 import Thorsignia_InternetCheck
-
+```
+### Tracker
+```
 //calling method in viewdidload
-override func viewDidLoad() {
+ override func viewDidLoad() {
     super.viewDidLoad()
-    //intialising internet checking...
-    self.CheckingInterNet()
+    self.GetInternetUpdates()
  }
+ ```
+ ```
  
  //Internet check main method...
-func CheckingInterNet(){
-    var timer = Timer()
-    timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.updateCounting), userInfo: nil, repeats: true)
-}
-//With timer support handling internet handling...
-@objc func updateCounting(){
-    NSLog("counting..")
-     if  R_InternetClassValidator.InternetChecking() {
-        print(" 👊👊👊👊👊👊 your internet is working fine...👊👊👊👊👊")
-       // self.showAlert(msg : " Dam your internet is working fine bro...")
-    }else {
-        print(" 👊👊👊👊👊your internet have some issue, please check...👊👊👊👊")
-        //self.showAlert(msg : " Dam your internet have some issue, please check bro...")
 
+func GetInternetUpdates(){
+    print(" 👊👊👊👊👊👊 Intialise method ...👊👊👊👊👊")
+    if !NetStatus.isMonitoring {
+        NetStatus.startMonitoring()
+    } else {
+        NetStatus.stopMonitoring()
+    }
+    
+    
+    NetStatus.didStartMonitoringHandler = { [unowned self] in
+        print(" 👊👊👊👊👊👊 start Monitoring...👊👊👊👊👊")
+        
+        print(" 👊👊👊👊👊👊 Please Update your UI...👊👊👊👊👊")
+    }
+    
+    NetStatus.didStopMonitoringHandler = { [unowned self] in
+        print(" 👊👊👊👊👊👊 Stop Monitoring...👊👊👊👊👊")
+        
+        print(" 👊👊👊👊👊👊 Please Update your UI...👊👊👊👊👊")
+
+    }
+    
+    NetStatus.netStatusChangeHandler = {
+        DispatchQueue.main.async { [unowned self] in
+            print(" 👊👊👊👊👊👊 \(NetStatus.isConnected ? "Connected" : "Not Connected")👊👊👊👊👊")
+            print(" 👊👊👊👊👊👊 \(NetStatus.isExpensive  ? "Expensive" : "Not Expensive")👊👊👊👊👊")
+            print(" 👊👊👊👊👊👊 \(NetStatus.interfaceType )👊👊👊👊👊")
+            print(" 👊👊👊👊👊👊 \(NetStatus.availableInterfacesTypes)👊👊👊👊👊")
+
+            print(" 👊👊👊👊👊👊 Please Update your UI...👊👊👊👊👊")
+         }
     }
 }
 ```
